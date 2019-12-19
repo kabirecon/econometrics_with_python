@@ -65,31 +65,3 @@ plt.show()
 plt.plot(lst2)
 plt.ylabel('coef')
 plt.show()
-
-# Regression Analysis
-# =============================================================================
-# lm.fit(x, y)
-# 
-# # Predicted value yhat
-# yhat = lm.predict(x)
-# #print(yhat)
-# 
-# mse = sqrt(mean_squared_error(y,yhat))
-# print("Root MSE is =",mse)
-# inter = lm.intercept_
-# print("Intercept = ", inter)
-# cof = lm.coef_
-# print("Coefficient", cof)
-# 
-# # Graph 1 for Income vs Consumption
-# df.plot(x='yt', y='ct', style='o')
-# plt.title('Income vs Expenditure')
-# plt.xlabel('Ln_Income')
-# plt.ylabel('Ln_Consumption')
-# plt.show()
-# # Graph 2 For Residual Plot
-# # Residual Plot
-# sns.residplot(df['yt'], df['ct'])
-# plt.show()
-# 
-# =============================================================================
